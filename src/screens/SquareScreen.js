@@ -43,6 +43,7 @@ const SquareScreen = () => {
               color="Green"
             />
             <View  style={{height:150, width: 150, backgroundColor: `rgb(${red}, ${green}, ${blue})` }}/>
+            <Text>`rgb({red}, {green}, {blue})`</Text>
          </View>
 }
 
